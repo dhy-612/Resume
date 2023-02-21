@@ -83,6 +83,17 @@ You can deploy this project using visual studio.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Future features that will be added to the project include:
+
+- **The main section showcasing projects**
+- **A footer with contact details**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
