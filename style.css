@@ -10,6 +10,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.resume_container {
+  width:375px;
+}
+
 .Navigation {
   padding: 24px;
   display: flex;
@@ -395,29 +399,91 @@ header {
   border-bottom: 1px solid #dfe1e6;
 }
 
+/* Contact Page */
+
 .contact_container {
-  background: var(--color-white);
+  background: #fff;
+
 }
 
 .contacts {
-  background: var(--color-blue);
+  background: #6070ff;
   border-top-left-radius: 5rem;
   height: 48.625rem;
+  background-image: url("images/contact-background.png");
+  background-size: 60%;
+  background-position: 150px 30px;
+  background-repeat: no-repeat;
 }
 
 .contacts_head {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: 6.25rem 1.5rem 2rem 1.5rem;
+  padding : 6.25rem 1.5rem 2rem 1.5rem;
 }
 
 .contacts_heading {
-  color: var(--color-white);
+  color: #fff;
 }
 
 .contacts_text {
   color: #ebebff;
   text-align: center;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.form-input::placeholder {
+  color: #172b4d;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
+.form-text {
+  height: 10.625rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.form-text::placeholder {
+  color: #B3BAC5;
+}
+
+.form-button {
+  padding: 0.7rem;
+  width: 8.75rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #6070ff;
+}
+
+.form-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+}
+
+.form-button:active {
+  background-color: #2230d2;
+  color: #fff;
 }
