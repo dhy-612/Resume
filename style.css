@@ -424,6 +424,8 @@ header {
 
 .contacts_heading {
   color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .contacts_text {
@@ -454,7 +456,7 @@ form {
   height: 10.625rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .form-text::placeholder {
