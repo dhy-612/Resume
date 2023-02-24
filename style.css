@@ -523,6 +523,10 @@ form {
 /* desktop version */
 
 @media (min-width: 768px) {
+  body {
+    width: 1440px;
+  }
+
   nav {
     padding: 0 133px 0 133px;
   }
