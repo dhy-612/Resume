@@ -787,28 +787,28 @@ form {
   }
 
   .contacts_head {
-    padding: 0rem;
+    padding: 0;
   }
 
   .contacts_heading {
-    padding: 0rem 10rem ;
+    padding: 0 10rem;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .contacts_text {
-    padding: 0rem 6rem;
+    padding: 0 6rem;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #ebebff;
   }
-  
+
   form {
-    padding: 0rem 10rem ;
+    padding: 0 10rem;
   }
 
   .form_content {
@@ -817,7 +817,7 @@ form {
     align-content: center;
     justify-content: center;
   }
-  
+
   /* .form-button {
     display: none;
   } */
@@ -834,4 +834,3 @@ form {
     color: #6070ff;
   }
 }
-
