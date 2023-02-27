@@ -104,7 +104,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can contact the author througt the above media links or by email to mojica.raul@gmail.com
+If you like this project you can contact the author througt the above media links or by email to harsh612y@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
