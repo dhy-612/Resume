@@ -219,9 +219,12 @@
                   <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                   <div class="form-content">
                       <form action="https://formspree.io/f/xknagdbe" method="POST">
-                          <input class="basic-input" type="text" placeholder="Enter your name" maxlength="30" required>
-                          <input class="basic-input" type="email" placeholder="Enter your e-mail" required>
-                          <textarea class="textbox-area" name="area" maxlength="500" placeholder="Write your message here" required></textarea>
+                          <label for = "f-name"></label> 
+                          <input class="basic-input" id="f-name" type="text" placeholder="Enter your name" maxlength="30" required>
+                          <label for = "f-email"></label> 
+                          <input class="basic-input" id="f-email" type="email" placeholder="Enter your e-mail" required>
+                          <label for ="f-textbox"></label> 
+                          <textarea class="textbox-area" id="f-textbox" name="area" maxlength="500" placeholder="Write your message here" required></textarea>
                           <button class="form-button" type="submit">Get In Touch</button>
                       </form>
                   </div>
