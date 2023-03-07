@@ -4,6 +4,8 @@ const hamburgerBtn = document.querySelector('.hambug-menu');
 const closeIcon = document.querySelector('.closeIcon');
 const menuIcon = document.querySelector('.menuIcon');
 
+/* Function */
+
 function toggleMenu() {
   if (mobileMenu.classList.contains('showMenu')) {
     mobileMenu.classList.remove('showMenu');
@@ -18,11 +20,9 @@ function toggleMenu() {
 
 hamburgerBtn.addEventListener('click', toggleMenu);
 
-menuItems.forEach(
-  (menuItem) => {
-    menuItem.addEventListener('click', toggleMenu);
-  },
-);
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener('click', toggleMenu);
+});
 
 const navLinks = document.querySelectorAll('nav a');
 navLinks.forEach((link) => {
