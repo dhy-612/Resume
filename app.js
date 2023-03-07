@@ -4,8 +4,6 @@ const hamburgerBtn = document.querySelector('.hambug-menu');
 const closeIcon = document.querySelector('.closeIcon');
 const menuIcon = document.querySelector('.menuIcon');
 
-/* Function */
-
 function toggleMenu() {
   if (mobileMenu.classList.contains('showMenu')) {
     mobileMenu.classList.remove('showMenu');
@@ -32,3 +30,15 @@ navLinks.forEach((link) => {
     targetSection.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+function toggleMenu() {
+  if (mobileMenu.classList.contains('showMenu')) {
+    mobileMenu.classList.remove('showMenu');
+    closeIcon.style.display = 'none';
+    menuIcon.style.display = 'block';
+  } else {
+    mobileMenu.classList.add('showMenu');
+    closeIcon.setAttribute('style', 'display: block !important');
+    menuIcon.style.display = 'none';
+  }
+}
