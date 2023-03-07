@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harsh, Software Engineer-Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="resume">
@@ -13,7 +14,15 @@
           <nav>
               <div class="Navigation">
                   <a href="#" class="logo">HARSH</a>
-                  <a href="#" class="menu"><img src="./images/menu.svg" alt="menu"></a>
+                  <button class="hambug-menu">
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                  </button>
+                  <ul class="mobile-menu">
+                    <li><a class="menuItem" href="#Profile">Profile</a></li>
+                    <li><a class="menuItem" href="#About">About</a></li>
+                    <li><a class="menuItem" href="#contact">Contacts</a></li>
+                  </ul>
                   <ul class="menu-obj">
                       <li class="obj-links">Portfolio</li>
                       <li class="obj-links">About</li>
@@ -232,5 +241,6 @@
           </div>
       </section>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
