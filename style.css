@@ -39,8 +39,8 @@ body {
   align-items: flex-start;
   z-index: 100;
   width: 2.5rem;
-  height: 2.5rem;
-  padding: 0.5rem;
+  height: 2.5;
+  padding: 0.6rem;
   cursor: pointer;
   border: none;
   background: none;
