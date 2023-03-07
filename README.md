@@ -27,7 +27,7 @@
 
 **resume. Harsh Yadav.** In this project, I set up a "resume" repository. I applied the tools and best practices that I learned about in previous steps.
 
-## 🛠 Built With <a name="Visual Studio Code">HTML5, CSS3 & JavaScript</a>
+## 🛠 Built With <a name="Visual Studio Code">HTML5, CSS3 & javaScript</a>
 
 ### Tech Stack <a name="Visual Studio Code"></a>
 
@@ -35,7 +35,7 @@
 
 - HTML5
 - CSS5
-- JavaScript
+- javaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
