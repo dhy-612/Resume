@@ -1,8 +1,8 @@
-const mobileMenu = document.querySelector('.mobile-menu');
-const menuItems = document.querySelectorAll('.menuItem');
-const hamburgerBtn = document.querySelector('.hambug-menu');
-const closeIcon = document.querySelector('.closeIcon');
-const menuIcon = document.querySelector('.menuIcon');
+let mobileMenu = document.querySelector('.mobile-menu');
+let menuItems = document.querySelectorAll('.menuItem');
+let hamburgerBtn = document.querySelector('.hambug-menu');
+let closeIcon = document.querySelector('.closeIcon');
+let menuIcon = document.querySelector('.menuIcon');
 
 function toggleMenu() {
   if (mobileMenu.classList.contains('showMenu')) {
@@ -22,11 +22,11 @@ menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
 
-const navLinks = document.querySelectorAll('nav a');
+let navLinks = document.querySelectorAll('nav a');
 navLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
-    const targetSection = document.querySelector(e.target.getAttribute('href'));
+    let targetSection = document.querySelector(e.target.getAttribute('href'));
     targetSection.scrollIntoView({ behavior: 'smooth' });
   });
 });
