@@ -30,3 +30,23 @@ navLinks.forEach((link) => {
     targetSection.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+// New addition
+
+let newVar = document.querySelectorAll('nav a');
+newVar.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const targetSection = document.querySelector(e.target.getAttribute('href'));
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+let newVar2 = document.querySelectorAll('nav a');
+newVar2.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const targetSection = document.querySelector(e.target.getAttribute('href'));
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+});
