@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harsh, Software Engineer-Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="resume">
@@ -13,7 +14,15 @@
           <nav>
               <div class="Navigation">
                   <a href="#" class="logo">HARSH</a>
-                  <a href="#" class="menu"><img src="./images/menu.svg" alt="menu"></a>
+                  <button class="hambug-menu">
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                  </button>
+                  <ul class="mobile-menu">
+                    <li><a class="menuItem" href="#Profile">Profile</a></li>
+                    <li><a class="menuItem" href="#About">About</a></li>
+                    <li><a class="menuItem" href="#contact">Contacts</a></li>
+                  </ul>
                   <ul class="menu-obj">
                       <li class="obj-links">Portfolio</li>
                       <li class="obj-links">About</li>
@@ -28,10 +37,10 @@
               </div>
               <div class="headline-text">
                   <p>
-                      I’m a software developer! I can help you build a product, 
+                      I'm a software developer! I can help you build a product, 
                       feature or website Look through some of my work and experience! 
                       If you like what you see and have a project you need coded, 
-                      don’t hestiate to contact me.
+                      don't hestiate to contact me.
                   </p>
               </div>
               
@@ -62,7 +71,7 @@
           </section>
       </header>
 
-      <section class="Work-Container">
+      <section class="Work-Container" id="profile">
           <div class="Work">
               <img class="Portfolio-img" src="./images/Portfolio1.png" alt="Portfolio1">
               <img class="portfolio-desktop" src="./images/Desktop1.png" alt="Portfolio1">
@@ -152,10 +161,10 @@
           </div>
       </section>
 
-      <section class="About-container">
+      <section class="About-container" id="About">
           <div class="About-Top">
               <h2 class="about-head">About<br /> Myself</h2>
-              <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+              <p class="about-text">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
 
               <div class="social">
                   <h3>LET'S CONNECT</h3>
@@ -212,7 +221,7 @@
               </div>
           </div>
       </section>
-      <section class="contact-page">
+      <section class="contact-page" id="contact">
           <div class="contact-template">
               <div class="contact">
                   <h2 class="contact-title">Contact me</h2>
@@ -232,5 +241,6 @@
           </div>
       </section>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

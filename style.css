@@ -35,14 +35,59 @@ body {
   transform: translate(3px, 6px) scale(1.3);
 }
 
-.menu {
+.hambug-menu {
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  right: 19px;
-  top: calc(50% - 40px / 2);
-  border-radius: 8px;
+  z-index: 100;
+  width: 2.5rem;
+  height: 2.5;
+  padding: 0.6rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.closeIcon {
+  position: fixed;
+  display: none;
+  color: #fff;
+}
+
+.menuIcon {
+  position: relative;
+  color: #6070ff;
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(0.5rem);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
 }
 
 .menu-obj {
@@ -547,7 +592,7 @@ form {
     color: #6171ff;
   }
 
-  .menu {
+  .hambug-menu {
     display: none;
   }
 
